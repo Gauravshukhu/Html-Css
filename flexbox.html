@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox  tutorial</title>
+    <style>
+        .container{
+            height: 500px;
+            width: 200%;
+            border: 2px solid   rgb(19, 8, 8);
+            display: flex;  
+            /* flex properties  for flex    conatiner */
+            
+            /* default  value   of  flex direction  is  row */
+            /* flex-direction: row; */
+            /* flex-direction: column;
+            flex-direction: row-reverse;
+            flex-direction: column-reverse; */
+
+
+            /* flex-wrap:wrap;  */
+            /* flex-wrap: wrap-reverse; */
+
+
+            /* flex-flow: row-reverse  wrap; */
+
+            /* justify-content: center; */
+            /* justify-content: space-between; */
+            /* justify-content: space-evenly; */
+            /* justify-content:space-around ; */
+
+
+            /* align-items: center; */
+            /* align-items: flex-end; */
+            /* align-items: flex-start; */
+            /* align-items: stretch; */
+        
+
+
+
+        }
+        .item{
+            width: 200px;
+            height: 200px;
+            background-color: tomato;
+            border: 2px solid   red;
+            margin: 10px;
+            padding: 3px;
+        }
+        #item-1{
+            /* flex properties  for a   flex    item */
+            /* order: 2; */
+            
+        }
+        #item-2{}
+        #item-3{order: 40;}
+    </style>
+</head>
+<body>
+    <h3>
+        this felxbox
+    </h3>
+    <div class="container">
+       <div class="item" id="item-1">first  box</div>
+       <div class="item" id="item-2">second box</div>
+       <div class="item" id="item-3">third  box</div>
+       <div class="item" id="item-4">fourth box</div>
+       <div class="item" id="item-5">fifth  box</div>
+       <div class="item" id="item-6">sixth  box</div>
+    </div>
+</body>
+</html>
