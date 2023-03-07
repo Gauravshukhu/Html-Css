@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poising  property</title>
+    <style>
+        .container{
+            border: 2px solid   black;
+            background-color:blue;
+            height: 34444px;
+        }
+        /* postition  static (default), realative  ,fixed,sticky */
+        .box{
+            display: inline-block;
+            border: 2px solid   red;
+            width: 150px;
+            height: 150px;
+            margin: 2px;
+        }
+        #box3{
+            /* reelative   to  its  normal  position    and will leave  a   gap */
+            /* position:relative */
+
+            /* absoulte:    realtive    to  its normal  position */
+            /* position: absolute; */
+            /* top: 34px; */
+            /* left: 34px; */
+
+            /* position:fixwed */
+            /* fixed:border: relative to  the  browser window; */
+
+            /* sticky */
+            position: sticky;
+            top: 3px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box" id="box">1</div>
+    <div class="box" id="box">2</div>
+    <div class="box" id="box">3</div>
+    <div class="box" id="box">4</div>
+    </div>
+</body>
+</html>
